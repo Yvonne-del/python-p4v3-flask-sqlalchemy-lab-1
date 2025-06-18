@@ -53,6 +53,7 @@ def get_earthquakes_by_magnitude(magnitude):
             'year': quakes[i].year
         }
         arr.append(v)
+        
     response = {
         'count': count,
         'quakes': arr
